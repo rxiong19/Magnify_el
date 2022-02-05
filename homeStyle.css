@@ -31,3 +31,8 @@ body{
     border-radius: 15px 50px;
     text-align: center;
 }
+p{
+    padding:textwrap .5;
+    border: 5px solid rgb(59, 117, 5);
+    text-align: center;
+}
