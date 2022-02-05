@@ -21,17 +21,19 @@
 
                 While it may not be obvious to everyone, there are a number of reasons creating random paragraphs can be useful. A few examples of how some people use this generator are listed in the following paragraphs.
             </p>
-            <script type="text/javascript">
-                const p = document.getElementById("p");
-                function search (){
-                    let input = document.getElementById("input").value;
-                    if(input !== ""){
-                            let regExp = new RegExp( input , "gi")
-                            p.innerHTML = (p.textContent).replace(regExp,"<mark>$&</mark>");
-                    }
-                }
-            </script>
+
         </div>
+        <script type="text/javascript">
+            const p = document.getElementById("p");
+            function search (){
+                console.log("search");
+                let input = document.getElementById("input").value;
+                if(input !== ""){
+                        let regExp = new RegExp( input , "gi")
+                        p.innerHTML = (p.textContent).replace(regExp,"<mark>$&</mark>");
+                }
+            }
+        </script>
     </body>
 </head>
 
