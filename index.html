@@ -4,19 +4,34 @@
 <head>
     <link rel="stylesheet" href="homeStyle.css">
     <body>
+        
         <div id = "Header">
+
             <div id = "welcome_text">
                 <h1>Hello!</h1>
                 <h2>Welcome to MagniBee!</h2>
             </div>
-            <img src="icon.png"/>
+             <img src="icon.png"/> 
             <h3 id= "test">TEST</h3>
+            <div id= "searchbox">
+                <input type= "text" id="input" placeholder="Search"/>
+                <input type= "button" id="searchbtn" value="Search"/>
+            </div>
             <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear.
 
                 While it may not be obvious to everyone, there are a number of reasons creating random paragraphs can be useful. A few examples of how some people use this generator are listed in the following paragraphs.
             </p>
-            
-            </div>
+            <script type="text/javascript">
+                const p = document.getElementById("p");
+                function search (){
+                    let input = document.getElementById("input").value;
+                    if(input !== ""){
+                            let regExp = new RegExp( input , "gi")
+                            p.innerHTML = (p.textContent).replace(regExp,"<mark>$&</mark>");
+                    }
+                }
+            </script>
+        </div>
     </body>
 </head>
 
