@@ -33,7 +33,7 @@
                 let input = document.getElementById("input").value;
                 if(input !== ""){
                         let regExp = new RegExp( input , "gi")
-                        p.innerHTML = (p.textContent).replace(regExp,"<mark>$&</mark>");
+                        p.innerHTML = (p.textContent).replace(regExp,"<p style='font-size:200%;'>$&</p>");
                 }
             }
         </script>
