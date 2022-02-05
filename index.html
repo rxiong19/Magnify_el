@@ -9,7 +9,7 @@
 
             <div id = "welcome_text">
                 <h1>Hello!</h1>
-                <h2>Welcome to MagniBee!</h2>
+                <h2>Welcome to MagniBeeeeeeee!</h2>
             </div>
              <img src="icon.png"/> 
             <h3 id= "test">TEST</h3>
@@ -29,11 +29,16 @@
         <script type="text/javascript">
             const p = document.getElementById("p");
             function search (){
-                console.log("search");
+                console.log("MagniBeeeeeee");
                 let input = document.getElementById("input").value;
+                let x = 20;
+                x = x.toString();
+                y = "<p style='font-size:";
+                z = "pt;'>$&</p>";
+
                 if(input !== ""){
                         let regExp = new RegExp( input , "gi")
-                        p.innerHTML = (p.textContent).replace(regExp,"<p style='font-size:40pt;'>$&</p>");
+                        p.innerHTML = (p.textContent).replace(regExp, y+x+z);
                 }
             }
         </script>
