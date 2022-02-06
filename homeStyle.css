@@ -35,7 +35,7 @@ body{
     padding: 40px 0;
     text-shadow: 3px 3px 1px black;
 }
- img{
+img{
     transform: translate(120px, -50%);
     max-width:50%;
     height:auto;
