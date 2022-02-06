@@ -65,6 +65,12 @@ h2{
     padding:textwrap .5;
     border: 5px solid rgb(59, 117, 5);  
 }
+.icon{
+    width:24px;
+    height:auto;
+    height:24px;
+    
+}
 
 .footer {
     position:fixed;
@@ -81,10 +87,16 @@ h2{
     max-width:50%;
     height:auto;
     max-height:50%;
-    position:relative;
+    position:center;
 }
 #aboutme{
     text-align:center;
     padding:textwrap .5;
     border: 5px solid rgb(175, 175, 175); 
+}
+#mail{
+    max-width:2%;
+    height:auto;
+    max-height:10%;
+    position:relative;
 }
