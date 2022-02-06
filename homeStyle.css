@@ -1,9 +1,26 @@
 body{   
     background-color: #c7d6c8;
-}    
-#Header{
-    position: relative;
 }
+.topnav{
+    background-color: #9fc0a1;
+    overflow: hidden;
+}  
+.topnav a{
+    float: left;
+    color: #cccbcb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: rgb(199, 241, 81);
+    color: rgb(234, 247, 210);
+} 
+.topnav a.active {
+    background-color: #8cc432;
+    color: white;
+  } 
 h1{
     font-size: 50px;
     color: #9A9B97;
@@ -17,9 +34,9 @@ h2{
     text-shadow: 3px 3px 1px black;
 }
  img{
-    max-width:100%;
+    max-width:20%;
     height:auto;
-    max-height:100%;
+    max-height:20%;
     position:relative;
     opacity: 0.5;
 
@@ -36,3 +53,4 @@ p{
     border: 5px solid rgb(59, 117, 5);
     
 }
+
