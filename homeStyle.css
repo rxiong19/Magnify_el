@@ -100,3 +100,20 @@ h2{
     max-height:10%;
     position:relative;
 }
+#bee2{
+    transform: translate(120px, 50%);
+    left:50%;
+    position:absolute;
+    bottom:30%;
+    max-height:10%;
+    max-width:10%;
+    height:auto;
+}
+#flower2{
+    right:1%;
+    position:absolute;
+    bottom:4%;
+    max-height:100%;
+    max-width:100%;
+    height:auto;
+}
